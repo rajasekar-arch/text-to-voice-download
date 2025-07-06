@@ -1,0 +1,45 @@
+{
+  "name": "text-to-voice-download",
+  "version": "1.0.0",
+  "description": "The text-to-voice-download npm package is a versatile, TypeScript-first library designed to simplify the process of converting text into downloadable audio files, seamlessly integrating into both your frontend and backend JavaScript/TypeScript applications.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "jest --coverage --json --outputFile=test-results/jest-results.json",
+    "test:watch": "jest --watch",
+    "test:ci": "jest --ci --reporters=default --reporters=jest-junit"
+  },
+  "keywords": [
+    "text-to-speech",
+    "text",
+    "audio",
+    "tts",
+    "audio",
+    "download",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajasekar-arch/text-to-voice-download.git"
+  },
+  "author": "RAJASEKAR E C <rajasekar_e_c@outlook.com>",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rajasekar-arch/text-to-voice-download/issues"
+  },
+  "homepage": "https://github.com/rajasekar-arch/text-to-voice-download#readme",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.0.4",
+    "jest-html-reporters": "^3.1.7",
+    "jest-junit": "^16.0.0",
+    "ts-jest": "^29.4.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@types/node": "^24.0.10"
+  }
+}
