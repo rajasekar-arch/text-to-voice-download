@@ -1,4 +1,4 @@
-# **`text-to-voice-download` \- Text-to-Voice Converter & Downloader (Frontend)**
+# **`text-to-voice-converter` \- Text-to-Voice Converter & Downloader (Frontend)**
 
 A TypeScript-first npm package designed for converting text into downloadable audio files, seamlessly integrating into your frontend (browser) applications.
 
@@ -12,9 +12,9 @@ A TypeScript-first npm package designed for converting text into downloadable au
 
 Install the package using npm or yarn:
 
-npm install text-to-voice-download  
+npm install text-to-voice-converter  
 \# or  
-yarn add text-to-voice-download
+yarn add text-to-voice-converter
 
 ## **🛠️ Usage**
 
