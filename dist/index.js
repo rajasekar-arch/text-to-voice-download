@@ -1,10 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.textToVoice = textToVoice;
 /**
  * Converts text to speech and returns it as a downloadable audio Blob.
  * @param text The text to convert to speech.
  * @param audioType Optional MIME type (default: 'audio/webm').
  * @returns Promise that resolves to a Blob of the spoken audio.
  */
-export async function textToVoice(text, audioType = 'audio/webm') {
+async function textToVoice(text, audioType = 'audio/webm') {
     return new Promise((resolve, reject) => {
         if (!('speechSynthesis' in window)) {
             return reject(new Error('SpeechSynthesis API is not supported in this browser.'));
